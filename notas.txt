@@ -1,0 +1,22 @@
+php artisan
+
+
+-- Creando modelo con su respectiva migración
+php artisan make:model Tutorial -m
+
+-- Migraciones
+-- ejecutar
+php artisan migrate
+
+-- eliminar cambios hechos
+php artisan migrate:rollback
+
+-- crear un controller
+ php artisan make:controller TutorialController
+
+-- Convenciones en Controladores
+     * index para todos
+     * store para guardar
+     * update para actualizar
+     * destroy para eliminar
+     * show para mostrar uno
